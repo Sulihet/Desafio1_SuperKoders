@@ -1,29 +1,29 @@
 
-.div_Seccion2-maincontainer{
+.div_Section2-maincontainer{
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
 }
 
-// .div__Seccion2-secondcontainer{
+// .div__Section2-secondcontainer{
 // }
 
-.div__Seccion2-tercercontainer{
+.div__Section2-threecontainer{
 
-    .div__Seccion2-video{
+    .div__Section2-video{
         position: absolute;
         z-index: -1;
         }
 
-    .div__Seccion2-degradado{
+    .div__Section2-degradado{
         background-size: cover;
         background-repeat: no-repeat;
         width:100%;
         width: 100vw;
         }
 
-    .div__Seccion2-header{
+    .div__Section2-header{
         position: absolute;
         width: 470px;
         height: 62px;
@@ -45,243 +45,252 @@
 }
 
 
-.div_Seccion2-NuevoEbony{
-    width: 218px;
-    height: 32px;
-    top: 1188px;
-    left:32px;
-
-    font: 'Abril Fatface';
-    size: 24px;
-    line-height: 32.38px;
-
-    position: absolute;
-    width: 218px;
-    width: 32px;
-    left: 32px;
-    top: 1188px;
-
-    font-family: 'Abril Fatface';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.05em;
-
-    color:#FFFFFF;
-}
-
-.div__Seccion2-valoracion{
-    width: 71px;
-    height: 14px;
-    top: 1238px;
-    left: 32px;
-
-    font: 'Raleway';
-    size: 12px;
-    line-height: 14.09;
+.div__Section2-description1{
+    .p__Section2-pNuevo{
+        width: 218px;
+        height: 32px;
+        top: 1188px;
+        left:32px;
     
-    position: absolute;
-    width: 71px;
-    height: 14px;
-    left: 32px;
-    top: 1238px;
-
-    font-family:'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 14px;
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.05em;
-
-    color: #FFFFFF;
-}
-.div__Seccion2-Desde{
-    width: 224px;
-    height: 32px;
-    top: 1269px;
-    left: 32px;
-
-    font:'Abril Fatface' ;
-    size: 24px;
-    line-height: 32.38px;
-
-    position: absolute;
-    width: 224px;
-    height: 32px;
-    left: 32px;
-    top: 1269;
-
-    font-family: 'Abril Fatface';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.05em;
-
-    color: #FFFFFF;
-}
-
-.div__Seccion2-Lorem{
-    width: 360px;
-    height: 131px;
-    top: 1317;
-    left: 32px;
-
-    font: 'Raleway';
-    size: 16px;
-    line-height: 18.78px;
+        font: 'Abril Fatface';
+        size: 24px;
+        line-height: 32.38px;
     
-    position: absolute;
-    width: 360px;
-    height: 131px;
-    left: 32px;
-    top: 1317px;
-
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.05em;
-
-    color: #FFFFFF;
-}
-
-.li__Seccion2-Li--nuevo{
-    width: 40px;
-    height: 14px;
-    top: 1466px;
-    left: 32px;
-
-    font: 'Raleway';
-    size: 12px;
-    line-height: 14.09;
-
-    position: absolute;
-    width: 48px;
-    height: 14px;
-    left: 32px;
-    top: 1466px;
+        position: absolute;
+        width: 218px;
+        width: 32px;
+        left: 32px;
+        top: 1188px;
     
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 14px;
-
-    // El box
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.05em;
-
-    color:#FFFFFF ;
-}
-
-.li__Seccion2-Li--2021{
-    width: 29px;
-    height: 14px;
-    top: 1466px;
-    left: 93px;
-
-    font: 'Raleway';
-    size: 12px;
-    line-height: 14.09;
-
-    position: absolute;
-    visibility: hidden;
-    width: 29px;
-    height: 14px;
-    left: 93px;
-    top: 1466px;
+        font-family: 'Abril Fatface';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.05em;
     
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 14px;
+        color:#FFFFFF;
+        }   
 
-    // El box
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.05em;
+    .p__Section2-pValor{
+        width: 71px;
+        height: 14px;
+        top: 1238px;
+        left: 32px;
 
-    color:#FFFFFF ;
-}
+        font: 'Raleway';
+        size: 12px;
+        line-height: 14.09;
+        
+        position: absolute;
+        width: 71px;
+        height: 14px;
+        left: 32px;
+        top: 1238px;
 
-.li__Seccion2-Li--Acus{
-    width: 40px;
-    height: 14px;
-    top: 1466px;
-    left: 141px;
+        font-family:'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
 
-    font: 'Raleway';
-    size: 12px;
-    line-height: 14.09;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.05em;
 
-    position: absolute;
-    visibility: hidden;
-    width: 40px;
-    height: 14px;
-    left: 141px;
-    top: 1466px;
+        color: #FFFFFF;
+        }
+
+    .p__Section2-pDesde{
+        width: 224px;
+        height: 32px;
+        top: 1269px;
+        left: 32px;
     
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 14px;
-
-    // El box
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.05em;
-
-    color:#FFFFFF ;
-}
-
-.li__Seccion2-Li--Cedro{
-    width: 40px;
-    height: 14px;
-    top: 1466px;
-    left: 141px;
-
-    font: 'Raleway';
-    size: 12px;
-    line-height: 14.09;
-
-    position: absolute;
-    visibility: hidden;
-    width: 40px;
-    height: 14px;
-    left: 141px;
-    top: 1466px;
+        font:'Abril Fatface' ;
+        size: 24px;
+        line-height: 32.38px;
     
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 14px;
+        position: absolute;
+        width: 224px;
+        height: 32px;
+        left: 32px;
+        top: 1269;
+    
+        font-family: 'Abril Fatface';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.05em;
+    
+        color: #FFFFFF;
+        }
 
-    // El box
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.05em;
+    .p__Section2-pLorem{
+        width: 360px;
+        height: 131px;
+        top: 1317;
+        left: 32px;
+    
+        font: 'Raleway';
+        size: 16px;
+        line-height: 18.78px;
+        
+        position: absolute;
+        width: 360px;
+        height: 131px;
+        left: 32px;
+        top: 1317px;
+    
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.05em;
+    
+        color: #FFFFFF;
+        }
+    }   
 
-    color:#FFFFFF ;
-}
+// .div__Section2-description2{
+// >>>Estrellas<<<<
+// }
 
-.div__Seccion2-bottom--recuadro{
-    // Propiedades botón
 
+.div__Section2-description3{
+
+    .p__Section2-p1{
+        width: 40px;
+        height: 14px;
+        top: 1466px;
+        left: 32px;
+    
+        font: 'Raleway';
+        size: 12px;
+        line-height: 14.09;
+    
+        position: absolute;
+        width: 48px;
+        height: 14px;
+        left: 32px;
+        top: 1466px;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+    
+        // El box
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.05em;
+    
+        color:#FFFFFF ;
+        }
+
+    .p__Section2-p2{
+        width: 29px;
+        height: 14px;
+        top: 1466px;
+        left: 93px;
+        
+        font: 'Raleway';
+        size: 12px;
+        line-height: 14.09;
+        
+        position: absolute;
+        visibility: hidden;
+        width: 29px;
+        height: 14px;
+        left: 93px;
+        top: 1466px;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        
+        // El box
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.05em;
+        
+        color:#FFFFFF ;            
+        }
+
+    .p__Section2-p3{
+        width: 40px;
+        height: 14px;
+        top: 1466px;
+        left: 141px;
+    
+        font: 'Raleway';
+        size: 12px;
+        line-height: 14.09;
+    
+        position: absolute;
+        visibility: hidden;
+        width: 40px;
+        height: 14px;
+        left: 141px;
+        top: 1466px;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+    
+        // El box
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.05em;
+    
+        color:#FFFFFF ;
+        }
+
+    .p__Section2-p4{
+        width: 40px;
+        height: 14px;
+        top: 1466px;
+        left: 141px;
+    
+        font: 'Raleway';
+        size: 12px;
+        line-height: 14.09;
+    
+        position: absolute;
+        visibility: hidden;
+        width: 40px;
+        height: 14px;
+        left: 141px;
+        top: 1466px;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+    
+        // El box
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.05em;
+    
+        color:#FFFFFF ;
+        }
+    }
+
+.button__Section2-button{
     width: 228px;
     height: 32px;
     top: 1514px;
@@ -296,23 +305,6 @@
 
     background: #000000;
     border-radius: 8px;
-}
-
-.div__Seccion2-bottom--carrito{
-    width: 228px;
-    height: 32px;
-    left: 45.55;
-    top: 1312;
-
-    font: 'Raleway';
-    size: 14px;
-    line-height: 16.44px;
-
-    position: absolute;
-    width: 228px;
-    height: 32px;
-    left: 32px;
-    top: 1514px;
 
     font-family:'Raleway';
     font-style: normal;
@@ -323,114 +315,125 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.05em;
-
     background: #FFFFFF;
-
 }
 
-.img__Seccion2-img--piano{
-    width: 369.15px;
-    height: 308.53px;
-    top: 1211.37px;
-    left: 441.62;
+.div__Section2-sixcontainer{
+    .img__Section2-imgPia{
+        width: 369.15px;
+        height: 308.53px;
+        top: 1211.37px;
+        left: 441.62;
+    
+        position: absolute;
+        width: 369.15px;
+        height: 308.53px;
+        left: 441.62px;
+        top: 1211.37px;
+    
+        background: url(media);
+        }
 
-    position: absolute;
-    width: 369.15px;
-    height: 308.53px;
-    left: 441.62px;
-    top: 1211.37px;
+    .img__Section2-imgV1{
+        width: 446.39px;
+        height: 247.4px;
+        top: 1338.84px;
+        left: 928.42;
+        opacity: 50%;
+    
+        position: absolute;
+        left: 96.71%;
+        right: -43.21%;
+        top: 30.31%;
+        bottom: 64.09%;
+    
+        background: #FFFFFF;
+        opacity: 0.5%;
+        transform: rotate(143.88deg);    
+        }
+    
+    .img__Section2-imgV2{
+        width: 359.52px;
+        height: 279.74px;
+        top: 1205.02px;
+        left: 528.25;
+        opacity: 35%;
+    
+        position: absolute;
+        left: 55.03%;
+        right: 7.52%;
+        top: 27.28%;
+        bottom: 66.39%;
+    
+        background: #FFFFFF;
+        opacity: 0.35%;            
+        }
 
-    background: url(media);
+    .img__Section2-imgV3{
+        width: 362.65;
+        height: 180.21;
+        top: 1208.4;
+        left: 485.28px;
+    
+        position: absolute;
+        width: 362.65px;
+        height: 180.21px;
+        left: 485.28px;
+        top: 1208.4px;
+        }
 }
 
-.img__Seccion2-img--vector{
-    width: 446.39px;
-    height: 247.4px;
-    top: 1338.84px;
-    left: 928.42;
-    opacity: 50%;
 
-    position: absolute;
-    left: 96.71%;
-    right: -43.21%;
-    top: 30.31%;
-    bottom: 64.09%;
 
-    background: #FFFFFF;
-    opacity: 0.5%;
-    transform: rotate(143.88deg);
-}
-.img__Seccion2-img--vector2{
-    width: 359.52px;
-    height: 279.74px;
-    top: 1205.02px;
-    left: 528.25;
-    opacity: 35%;
 
-    position: absolute;
-    left: 55.03%;
-    right: 7.52%;
-    top: 27.28%;
-    bottom: 66.39%;
 
-    background: #FFFFFF;
-    opacity: 0.35%;
-}
-.img__Seccion2-img---vector3{
-    width: 362.65;
-    height: 180.21;
-    top: 1208.4;
-    left: 485.28px;
 
-    position: absolute;
-    width: 362.65px;
-    height: 180.21px;
-    left: 485.28px;
-    top: 1208.4px;
-}
+
+
+
 
 // <!-- Final de Sección2 Anay Delgado -->
 
-.div__Seccion5-degradado{
+// .div__Seccion5-degradado{
 
-width: 960px;
-height: 589px;
-top: 3279px;
+// width: 960px;
+// height: 589px;
+// top: 3279px;
 
-position: absolute;
-width: 960px;
-height: 589px;
-left: 0px;
-top: 3279px;
+// position: absolute;
+// width: 960px;
+// height: 589px;
+// left: 0px;
+// top: 3279px;
 
-background: linear-gradient(177.96deg, #6F6F6F 1.72%, #FFFFFF 98.63%);
-}
+// background: linear-gradient(177.96deg, #6F6F6F 1.72%, #FFFFFF 98.63%);
+// }
 
-.div__seccion5{
-    width: 470px;
-    height: 62px;
-    top: 3328px;
-    left: 245px;
+// .div__seccion5{
+//     width: 470px;
+//     height: 62px;
+//     top: 3328px;
+//     left: 245px;
 
-    font:'Abril Fatface';
-    size: 32px;
-    line-height: 43.17px;
+//     font:'Abril Fatface';
+//     size: 32px;
+//     line-height: 43.17px;
     
-    position: absolute;
-    width: 470px;
-    height: 62px;
-    left: 245px;
-    top: 3328px;
+//     position: absolute;
+//     width: 470px;
+//     height: 62px;
+//     left: 245px;
+//     top: 3328px;
 
-    font-family: 'Abril Fatface';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 43px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.05em;
+//     font-family: 'Abril Fatface';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 32px;
+//     line-height: 43px;
+//     display: flex;
+//     align-items: center;
+//     text-align: center;
+//     letter-spacing: 0.05em;
 
-    color: #000000;
-}
+//     color: #000000;
+// }
