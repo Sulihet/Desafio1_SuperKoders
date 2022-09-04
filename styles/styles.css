@@ -1,6 +1,5 @@
 .div__main-flex-S3 {
   display: flex;
-  background-color: linear-gradient(180deg, rgba(245, 245, 245, 0) 0%, #f5f5f5 51.56%, rgba(245, 245, 245, 0) 100%);
 }
 .div__main-flex-S3 .div__title-S3 {
   width: 470px;
@@ -14,8 +13,39 @@
   letter-spacing: 0.05em;
   color: black;
 }
-.div__main-flex-S3 .div__piano-cards {
-  position: relative;
+
+.div__piano-cards-container {
+  display: flex;
+}
+.div__piano-cards-container .div__card-piano-img {
+  position: absolute;
+  padding-bottom: 330px;
+  display: flex;
+  justify-content: center;
+}
+.div__piano-cards-container .div__card-white-space {
+  height: 30px;
+}
+.div__piano-cards-container .ul__flex-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+.div__piano-cards-container .li__margin {
+  margin: 0px 10px;
+}
+.div__piano-cards-container .li__margin--none {
+  list-style-type: none;
+}
+.div__piano-cards-container .div__buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.div__piano-cards-container .div__piano-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 250px;
   height: 239px;
   background: white;
@@ -24,7 +54,7 @@
   border-radius: 8px;
   margin: 15px;
 }
-.div__main-flex-S3 .div__card-title {
+.div__piano-cards-container .div__card-title {
   width: 182px;
   height: 28px;
   left: 367px;
@@ -33,13 +63,12 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  display: flex;
   align-items: center;
   letter-spacing: 0.05em;
   color: black;
   margin: 25px auto;
 }
-.div__main-flex-S3 .div__card-description {
+.div__piano-cards-container .div__card-description {
   width: 39px;
   height: 14px;
   left: 673px;
@@ -49,17 +78,17 @@
   font-size: 12px;
   line-height: 14px;
   /* identical to box height */
-  display: flex;
   align-items: center;
   letter-spacing: 0.05em;
   color: black;
 }
-.div__main-flex-S3 .div__card-vector {
+.div__piano-cards-container .div__card-vector {
   width: 232px;
   height: 0px;
   border: 1px dashed #dbdbdb;
+  margin: 20px 0;
 }
-.div__main-flex-S3 .button__price-font {
+.div__piano-cards-container .button__price-font {
   width: 161px;
   height: 36px;
   font-family: "Raleway";
@@ -75,10 +104,11 @@
   border-radius: 5px;
   margin: 28px 5px;
 }
-.div__main-flex-S3 .button__buy {
+.div__piano-cards-container .button__buy {
   width: 36px;
   height: 36px;
   left: 247px;
   background: #000000;
   border-radius: 8px;
+  padding: 5px;
 }/*# sourceMappingURL=styles.css.map */
