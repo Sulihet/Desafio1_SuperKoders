@@ -3,6 +3,8 @@
     width: 470px;
     height: 62px;
     left: 958px;
+    top: 958px;
+    left: 245;
 
     font-family: 'Abril Fatface';
     font-style: normal;
@@ -11,9 +13,187 @@
     line-height: 43px;
     display: flex;
     align-items: center;
+    align-content: center;
     text-align: center;
     letter-spacing: 0.05em;
 
     color: #000000;
     
 }
+
+.div__Seccion2-video{
+    position: absolute;
+    width: 1351;
+    height: 761px;
+    left: -196px;
+    top: 926px;
+
+    background-image: url(image.png);
+}
+
+.div_Seccion2-NuevoEbony{
+    // width: 218px;
+    // height: 32px;
+    // top: 1188px;
+    // left:32px;
+
+    // font: 'Abril Fatface';
+    // size: 24px;
+    // line-height: 32.38;
+    // align-self: start;
+
+    position: absolute;
+    width: 218px;
+    width: 32px;
+    left: 32px;
+    top: 1188px;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color:#FFFFFF;
+}
+
+.div__Seccion2-valoracion{
+    width: 71px;
+    height: 14px;
+    top: 1238px;
+    left: 32px;
+
+    font: 'Raleway';
+    size: 12px;
+    line-height: 14.09;
+    
+    position: absolute;
+    width: 71px;
+    height: 14px;
+    left: 32px;
+    top: 1238px;
+
+    font-family:'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+.div__Seccion2-Desde{
+    width: 224px;
+    height: 32px;
+    top: 1269px;
+    left: 32px;
+
+    font:'Abril Fatface' ;
+    size: 24px;
+    line-height: 32.38px;
+
+    position: absolute;
+    width: 224px;
+    height: 32px;
+    left: 32px;
+    top: 1269;
+
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+.div__Seccion2-Lorem{
+    width: 360px;
+    height: 131px;
+    top: 1317;
+    left: 32px;
+
+    font: 'Raleway';
+    size: 16px;
+    line-height: 18.78px;
+    
+    position: absolute;
+    width: 360px;
+    height: 131px;
+    left: 32px;
+    top: 1317px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+
+
+
+.div__Seccion2-bottom{
+    // Propiedades botón
+
+    width: 228px;
+    height: 32px;
+    top: 1312px;
+    left: 45.55px;
+    border-radius: 8px;
+
+    position: absolute;
+    width: 228px;
+    height: 32px;
+    left: 45.55px;
+    top: 1312px;
+
+    background: #000000;
+    border-radius: 8px;
+}
+
+.div__Seccion2-bottom--carrito{
+    width: 228px;
+    height: 32px;
+    left: 45.55;
+    top: 1312;
+
+    font: 'Raleway';
+    size: 14px;
+    line-height: 16.44px;
+
+    position: absolute;
+    width: 228px;
+    height: 32px;
+    left: 45.55px;
+    top: 1312px;
+
+    font-family:'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    background: #FFFFFF;
+
+
+}
+
