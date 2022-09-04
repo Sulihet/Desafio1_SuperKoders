@@ -10,14 +10,14 @@
 }
 
 .div__Seccion2-degradado{
-    width: 1315px;
+    width: 950px;
     height: 761px;
     top: 926px;
 
     position: absolute;
-    width: 1351px;
+    width: 960px;
     height: 761px;
-    left: -196px;
+    left: 0px;
     top: 926px;
 
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.820101) 14.06%, rgba(0, 0, 0, 0.75) 37.19%, rgba(0, 0, 0, 0.75) 55.32%, rgba(255, 255, 255, 0.6454) 88.52%, #FFFFFF 97.7%);
@@ -163,19 +163,128 @@
     color: #FFFFFF;
 }
 
-.ul__Seccion2-list{
-    width: 112px;
-    height: 16px;
-    top: 1237px;
-    left: 123px;
+.li__Seccion2-Li--nuevo{
+    width: 40px;
+    height: 14px;
+    top: 1466px;
+    left: 32px;
+
+    font: 'Raleway';
+    size: 12px;
+    line-height: 14.09;
 
     position: absolute;
-    width: 112px;
-    height: 16px;
-    left: 123px;
-    top: 1237px;
+    width: 48px;
+    height: 14px;
+    left: 32px;
+    top: 1466px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+
+    // El box
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    color:#FFFFFF ;
 }
 
+.li__Seccion2-Li--2021{
+    width: 29px;
+    height: 14px;
+    top: 1466px;
+    left: 93px;
+
+    font: 'Raleway';
+    size: 12px;
+    line-height: 14.09;
+
+    position: absolute;
+    visibility: hidden;
+    width: 29px;
+    height: 14px;
+    left: 93px;
+    top: 1466px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+
+    // El box
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    color:#FFFFFF ;
+}
+
+.li__Seccion2-Li--Acus{
+    width: 40px;
+    height: 14px;
+    top: 1466px;
+    left: 141px;
+
+    font: 'Raleway';
+    size: 12px;
+    line-height: 14.09;
+
+    position: absolute;
+    visibility: hidden;
+    width: 40px;
+    height: 14px;
+    left: 141px;
+    top: 1466px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+
+    // El box
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    color:#FFFFFF ;
+}
+
+.li__Seccion2-Li--Cedro{
+    width: 40px;
+    height: 14px;
+    top: 1466px;
+    left: 141px;
+
+    font: 'Raleway';
+    size: 12px;
+    line-height: 14.09;
+
+    position: absolute;
+    visibility: hidden;
+    width: 40px;
+    height: 14px;
+    left: 141px;
+    top: 1466px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+
+    // El box
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    color:#FFFFFF ;
+}
 
 .div__Seccion2-bottom--recuadro{
     // Propiedades botón
@@ -258,7 +367,6 @@
     opacity: 0.5%;
     transform: rotate(143.88deg);
 }
-
 .img__Seccion2-img--vector2{
     width: 359.52px;
     height: 279.74px;
@@ -275,7 +383,6 @@
     background: #FFFFFF;
     opacity: 0.35%;
 }
-
 .img__Seccion2-img---vector3{
     width: 362.65;
     height: 180.21;
