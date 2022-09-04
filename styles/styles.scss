@@ -1,56 +1,49 @@
 
-.div__Seccion2-video{
-    position: absolute;
-    width: 1351;
-    height: 761px;
-    left: -196px;
-    top: 926px;
-
-    background-image: url(image.png);
-}
-
-.div__Seccion2-degradado{
-    width: 950px;
-    height: 761px;
-    top: 926px;
-
-    position: absolute;
-    width: 960px;
-    height: 761px;
-    left: 0px;
-    top: 926px;
-
-    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.820101) 14.06%, rgba(0, 0, 0, 0.75) 37.19%, rgba(0, 0, 0, 0.75) 55.32%, rgba(255, 255, 255, 0.6454) 88.52%, #FFFFFF 97.7%);
-}
-
-.div__seccion2{
-    width: 470px;
-    height: 62px;
-    top: 958px;
-    left: 245px;
-
-    font:'Abril Fatface';
-    size: 32px;
-    line-height: 43.17px;
-    
-    position: absolute;
-    width: 470px;
-    height: 62px;
-    left: 245px;
-    top: 958px;
-
-    font-family: 'Abril Fatface';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 43px;
+.div_Seccion2-maincontainer{
     display: flex;
+    flex-direction: column;
+    justify-items: center;
     align-items: center;
-    text-align: center;
-    letter-spacing: 0.05em;
-
-    color: #000000;
 }
+
+// .div__Seccion2-secondcontainer{
+// }
+
+.div__Seccion2-tercercontainer{
+
+    .div__Seccion2-video{
+        position: absolute;
+        z-index: -1;
+        }
+
+    .div__Seccion2-degradado{
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:100%;
+        width: 100vw;
+        }
+
+    .div__Seccion2-header{
+        position: absolute;
+        width: 470px;
+        height: 62px;
+        left: 245px;
+        top: 958px;
+
+        font-family: 'Abril Fatface';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 43px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.05em;
+
+        color: #000000;
+        }
+}
+
 
 .div_Seccion2-NuevoEbony{
     width: 218px;

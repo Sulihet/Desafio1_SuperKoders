@@ -1,33 +1,30 @@
-.div__Seccion2-video {
-  position: absolute;
-  width: 1351;
-  height: 761px;
-  left: -196px;
-  top: 926px;
-  background-image: url(image.png);
+.div_Seccion2-maincontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.div__Seccion2-degradado {
-  width: 950px;
-  height: 761px;
-  top: 926px;
+.div__Seccion2-tercercontainer .div__Seccion2-video {
   position: absolute;
-  width: 960px;
-  height: 761px;
-  left: 0px;
-  top: 926px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(14.06%, rgba(255, 255, 255, 0.820101)), color-stop(37.19%, rgba(0, 0, 0, 0.75)), color-stop(55.32%, rgba(0, 0, 0, 0.75)), color-stop(88.52%, rgba(255, 255, 255, 0.6454)), color-stop(97.7%, #FFFFFF));
-  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.820101) 14.06%, rgba(0, 0, 0, 0.75) 37.19%, rgba(0, 0, 0, 0.75) 55.32%, rgba(255, 255, 255, 0.6454) 88.52%, #FFFFFF 97.7%);
+  z-index: -1;
 }
 
-.div__seccion2 {
-  width: 470px;
-  height: 62px;
-  top: 958px;
-  left: 245px;
-  font: 'Abril Fatface';
-  size: 32px;
-  line-height: 43.17px;
+.div__Seccion2-tercercontainer .div__Seccion2-degradado {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  width: 100vw;
+}
+
+.div__Seccion2-tercercontainer .div__Seccion2-header {
   position: absolute;
   width: 470px;
   height: 62px;
@@ -370,5 +367,46 @@
   height: 180.21px;
   left: 485.28px;
   top: 1208.4px;
+}
+
+.div__Seccion5-degradado {
+  width: 960px;
+  height: 589px;
+  top: 3279px;
+  position: absolute;
+  width: 960px;
+  height: 589px;
+  left: 0px;
+  top: 3279px;
+  background: linear-gradient(177.96deg, #6F6F6F 1.72%, #FFFFFF 98.63%);
+}
+
+.div__seccion5 {
+  width: 470px;
+  height: 62px;
+  top: 3328px;
+  left: 245px;
+  font: 'Abril Fatface';
+  size: 32px;
+  line-height: 43.17px;
+  position: absolute;
+  width: 470px;
+  height: 62px;
+  left: 245px;
+  top: 3328px;
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
 }
 /*# sourceMappingURL=styles.css.map */
