@@ -1,10 +1,38 @@
+.div__Seccion2-video {
+  position: absolute;
+  width: 1351;
+  height: 761px;
+  left: -196px;
+  top: 926px;
+  background-image: url(image.png);
+}
+
+.div__Seccion2-degradado {
+  width: 1315px;
+  height: 761px;
+  top: 926px;
+  position: absolute;
+  width: 1351px;
+  height: 761px;
+  left: -196px;
+  top: 926px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(14.06%, rgba(255, 255, 255, 0.820101)), color-stop(37.19%, rgba(0, 0, 0, 0.75)), color-stop(55.32%, rgba(0, 0, 0, 0.75)), color-stop(88.52%, rgba(255, 255, 255, 0.6454)), color-stop(97.7%, #FFFFFF));
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.820101) 14.06%, rgba(0, 0, 0, 0.75) 37.19%, rgba(0, 0, 0, 0.75) 55.32%, rgba(255, 255, 255, 0.6454) 88.52%, #FFFFFF 97.7%);
+}
+
 .div__seccion2 {
+  width: 470px;
+  height: 62px;
+  top: 958px;
+  left: 245px;
+  font: 'Abril Fatface';
+  size: 32px;
+  line-height: 43.17px;
   position: absolute;
   width: 470px;
   height: 62px;
-  left: 958px;
+  left: 245px;
   top: 958px;
-  left: 245;
   font-family: 'Abril Fatface';
   font-style: normal;
   font-weight: 400;
@@ -16,23 +44,19 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
   text-align: center;
   letter-spacing: 0.05em;
   color: #000000;
 }
 
-.div__Seccion2-video {
-  position: absolute;
-  width: 1351;
-  height: 761px;
-  left: -196px;
-  top: 926px;
-  background-image: url(image.png);
-}
-
 .div_Seccion2-NuevoEbony {
+  width: 218px;
+  height: 32px;
+  top: 1188px;
+  left: 32px;
+  font: 'Abril Fatface';
+  size: 24px;
+  line-height: 32.38px;
   position: absolute;
   width: 218px;
   width: 32px;
@@ -132,17 +156,29 @@
   color: #FFFFFF;
 }
 
-.div__Seccion2-bottom {
+.ul__Seccion2-list {
+  width: 112px;
+  height: 16px;
+  top: 1237px;
+  left: 123px;
+  position: absolute;
+  width: 112px;
+  height: 16px;
+  left: 123px;
+  top: 1237px;
+}
+
+.div__Seccion2-bottom--recuadro {
   width: 228px;
   height: 32px;
-  top: 1312px;
-  left: 45.55px;
+  top: 1514px;
+  left: 32px;
   border-radius: 8px;
   position: absolute;
   width: 228px;
   height: 32px;
-  left: 45.55px;
-  top: 1312px;
+  left: 32px;
+  top: 1514px;
   background: #000000;
   border-radius: 8px;
 }
@@ -158,8 +194,8 @@
   position: absolute;
   width: 228px;
   height: 32px;
-  left: 45.55px;
-  top: 1312px;
+  left: 32px;
+  top: 1514px;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -174,5 +210,62 @@
   text-align: center;
   letter-spacing: 0.05em;
   background: #FFFFFF;
+}
+
+.img__Seccion2-img--piano {
+  width: 369.15px;
+  height: 308.53px;
+  top: 1211.37px;
+  left: 441.62;
+  position: absolute;
+  width: 369.15px;
+  height: 308.53px;
+  left: 441.62px;
+  top: 1211.37px;
+  background: url(media);
+}
+
+.img__Seccion2-img--vector {
+  width: 446.39px;
+  height: 247.4px;
+  top: 1338.84px;
+  left: 928.42;
+  opacity: 50%;
+  position: absolute;
+  left: 96.71%;
+  right: -43.21%;
+  top: 30.31%;
+  bottom: 64.09%;
+  background: #FFFFFF;
+  opacity: 0.5%;
+  -webkit-transform: rotate(143.88deg);
+          transform: rotate(143.88deg);
+}
+
+.img__Seccion2-img--vector2 {
+  width: 359.52px;
+  height: 279.74px;
+  top: 1205.02px;
+  left: 528.25;
+  opacity: 35%;
+  position: absolute;
+  left: 55.03%;
+  right: 7.52%;
+  top: 27.28%;
+  bottom: 66.39%;
+  background: #FFFFFF;
+  opacity: 0.35%;
+}
+
+.img__Seccion2-img---vector3 {
+  width: 362.65;
+  height: 180.21;
+  top: 1208.4;
+  left: 485.28px;
+  position: absolute;
+  width: 362.65px;
+  height: 180.21px;
+  left: 485.28px;
+  top: 1208.4px;
 }
 /*# sourceMappingURL=styles.css.map */
