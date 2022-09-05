@@ -30,28 +30,34 @@
           justify-content: center;
 }
 
-.div__Section2-threecontainer .div__Section2-header {
-  width: 8px;
-  height: 10px;
-  font-size: 32px;
-  font-family: 'Abril Fatface';
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 0%;
-  margin: 0 10px;
-  color: #000000;
-}
-
 .div__Section2-fourcontainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 400px 20px;
+}
+
+.div__Section2-fourcontainer .p__Section2-pNuevo {
+  font-family: 'Abril Fatface';
+  font-size: 24px;
+  margin: 20px 0;
+  color: #FFFFFF;
+}
+
+.div__Section2-fourcontainer .div__Section2-text {
+  font-family: 'Raleway';
+  font-size: 12px;
+  color: #FFFFFF;
 }
 
 .div__Section2-fourcontainer .ul__Section2_List {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 20px 0;
+  font-family: 'Raleway';
+  font-size: 12px;
+  color: white;
 }
 
 .div__Section2-fourcontainer .ul__Section2_List li {
@@ -60,6 +66,24 @@
 
 .div__Section2-fourcontainer .ul__Section2_List .Sin_punto {
   list-style: none;
+}
+
+.div__Section2-fourcontainer .ul__Section2_List .none_vist {
+  visibility: hidden;
+}
+
+.div__Section2-fourcontainer .p__Section2-pDesde {
+  font-family: 'Abril Fatface';
+  font-size: 24px;
+  margin: 20px 0;
+  color: #FFFFFF;
+}
+
+.div__Section2-fourcontainer .p__Section2-pLorem {
+  font-family: 'Raleway';
+  font-size: 16px;
+  color: #FFFFFF;
+  width: 360px;
 }
 
 .div__Section2-Valoration {
@@ -80,50 +104,17 @@
 }
 
 .button__Section2-button {
-  background-color: black;
+  background-color: #000000;
+  border-radius: 8px;
   color: white;
   width: 228px;
   height: 32px;
-  border-radius: 8px;
 }
 
-.div__Section2-sixcontainer .img__Section2-imgPia {
-  width: 369.15px;
-  height: 308.53px;
-  top: 1211.37px;
-  left: 441.62;
-}
-
-.div__Section2-sixcontainer .img__Section2-imgV1 {
-  width: 446.39px;
-  height: 247.4px;
-  top: 1338.84px;
-  left: 928.42;
-  opacity: 50%;
-  left: 96.71%;
-  right: -43.21%;
-  top: 30.31%;
-  bottom: 64.09%;
-  background: #FFFFFF;
-  -webkit-transform: rotate(143.88deg);
-          transform: rotate(143.88deg);
-}
-
-.div__Section2-sixcontainer .img__Section2-imgV2 {
-  width: 359.52px;
-  height: 279.74px;
-  left: 55.03%;
-  right: 7.52%;
-  top: 27.28%;
-  bottom: 66.39%;
-  background: #FFFFFF;
-  opacity: 0.35%;
-}
-
-.div__Section2-sixcontainer .img__Section2-imgV3 {
-  width: 362.65;
-  height: 180.21;
-  top: 1208.4;
-  left: 485.28px;
+.div__Section2-sixcontainer {
+  width: 506.42px;
+  height: 463px;
+  left: 422px;
+  top: 1139px;
 }
 /*# sourceMappingURL=styles.css.map */
