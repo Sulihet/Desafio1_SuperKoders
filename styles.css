@@ -212,11 +212,14 @@ nav ul li {
 }
 
 #section5 {
+  min-width: 100%;
+  margin: 0;
   background: linear-gradient(to bottom, gray, white);
+  background-size: 100%;
 }
 
 #section5 h3 {
-  width: 100%;
+  min-width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -232,7 +235,7 @@ nav ul li {
 .partnerIzquierdo,
 .partnerDerecho {
   display: inherit;
-  min-width: 200px;
+  min-width: 240px;
   height: 70px;
   border-radius: 1000px;
   margin: 10px 20px 10px 20px;
@@ -245,8 +248,8 @@ nav ul li {
 
 .partnerIzquierdo img,
 .partnerDerecho img {
-  width: 40%;
-  height: 100%;
+  width: 15%;
+  height: 40%;
   border-radius: 100px;
   background: rgba(255, 255, 255, 0.5);
   margin: auto;
@@ -258,4 +261,8 @@ nav ul li {
   justify-content: center;
   width: 60%;
   margin: auto;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
 }/*# sourceMappingURL=styles.css.map */
