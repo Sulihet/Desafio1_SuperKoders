@@ -239,6 +239,10 @@ nav ul li {
   color: white;
 }
 
+#section5{
+  background: linear-gradient(to bottom, gray, white);
+}
+
 #section5 h3 {
   width: 100%;
   display: flex;
@@ -256,8 +260,8 @@ nav ul li {
 .partnerIzquierdo,
 .partnerDerecho {
   display: inherit;
-  width: 200px;
-  height: 100px;
+  min-width: 200px;
+  height: 70px;
   border-radius: 1000px;
   margin: 10px 20px 10px 20px;
   background: #000000;
@@ -266,8 +270,8 @@ nav ul li {
 }
 
 @mixin logos {
-  width: 41px;
-  height: 60px;
+  width: 40%;
+  height: 100%;
   border-radius: 100px;
   background: rgba(255, 255, 255, 0.5);
 }
@@ -280,6 +284,8 @@ nav ul li {
 
 .partnerIzquierdo p,
 .partnerDerecho p {
+  display: flex;
+  justify-content: center;
   width: 60%;
   margin: auto;
 }
