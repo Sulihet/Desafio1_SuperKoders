@@ -11,6 +11,7 @@
   box-shadow: 0px 28px 64px 12px rgba(0, 0, 0, 0.12);
   border-radius: 8px;
   margin: 15px;
+  z-index: -1;
 }
 
 @mixin card-title-fonts {
@@ -29,7 +30,6 @@
 }
 
 @mixin card-description-fonts {
-  // position: absolute;
   width: 39px;
   height: 14px;
   left: 673px;
@@ -72,14 +72,21 @@
   width: 36px;
   height: 36px;
   left: 247px;
-  background: #000000;
+  background: $primary-color;
   border-radius: 8px;
   padding: 5px;
 }
 
+/* class for main container S3*/
 .div__main-flex-S3 {
   display: flex;
+  justify-content: center;
+
+  /*class for section 3 title*/
   .div__title-S3 {
+    display: flex;
+    justify-content: center;
+    margin: 200px;
     width: 470px;
     height: 62px;
     font-family: $font-abril;
@@ -93,6 +100,7 @@
   }
 }
 
+/*Cointainer for cards S3*/
 .div__piano-cards-container {
   display: flex;
 
@@ -120,7 +128,6 @@
   .li__margin--none {
     list-style-type: none;
   }
-
   .div__buttons-container {
     display: flex;
     justify-content: space-between;
@@ -150,4 +157,20 @@
   .button__buy {
     @include buy-button();
   }
+}
+
+/*Class for button of the bottom of S3*/
+.div__btn-see-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px;
+}
+
+.btn__see-more {
+  width: 129px;
+  height: 32px;
+  background-color: $primary-color;
+  border-radius: 8px;
+  color: $third-color;
 }
