@@ -1,253 +1,176 @@
+*{padding: 0px; 
+margin: 0px;
+box-sizing: border-box;}
 
-.div_Section2-maincontainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 960px ;
-    height: 750px;
+.div__Section2-imgcover{
+    width: 100vw;
+
+    .img__video{ 
+        z-index: -1;
+        position: absolute;
+    }
 }
 
-.div__Section2-secondcontainer{
-    background-size: cover;
-    background-repeat:no-repeat;
-    // width: auto;
-
-        .div__Section2-video{
-            position: absolute;
-            z-index: -2;
-            }
-
-        .div__Section2-imgcover{
-            display: flex;
-            z-index: -1;
-            width: 100%;
-            }
-}
 
 .div__Section2-threecontainer{
-    position: absolute;
+    // position: absolute;
     justify-content: space-around;
 
         .div__Section2-header{
+            width: 8px;
+            height: 10px;
             font-size: 32px;
             font-family: 'Abril Fatface';
             text-align: center;
             padding-top: 10px;
             padding-bottom: 0%;
             margin: 0 10px;
-
             color: #000000;
             }
 }
 
 .div__Section2-description1{
-    position: absolute;
     text-align: center;
     display: flex;
 
-    .p__Section2-pNuevo{
-        position: absolute;
-        width: 218px;
-        width: 32px;
-    
-        font-family: 'Abril Fatface';
-        font-size: 24px;
-        color:#FFFFFF;
-        }   
-
-    .p__Section2-pValor{
-        position: absolute;
-        width: 71px;
-        height: 14px;
-
-        font-family:'Raleway';
-        font-size: 12px;
-        color: #FFFFFF;
-        }
-
-    .p__Section2-pDesde{
-        position: absolute;
-        width: 224px;
-        height: 32px;
+        .p__Section2-pNuevo{
+            width: 218px;
+            height: 32px;
         
-        font-family: 'Abril Fatface';
-        font-size: 24px;
-        color: #FFFFFF;
-        }
+            font-family: 'Abril Fatface';
+            font-size: 24px;
+            color:#FFFFFF;
+            }   
 
-    .p__Section2-pLorem{
-        position: absolute;
-        width: 360px;
-        height: 131px;
+        .p__Section2-pValor{
+            width: 71px;
+            height: 14px;
 
-        color: #FFFFFF;
-        }
+            font-family:'Raleway';
+            font-size: 12px;
+            color: #FFFFFF;
+            }
+
+        .p__Section2-pDesde{
+            width: 224px;
+            height: 32px;
+            
+            font-family: 'Abril Fatface';
+            font-size: 24px;
+            color: #FFFFFF;
+            }
+
+        .p__Section2-pLorem{
+            width: 360px;
+            height: 131px;
+
+            color: #FFFFFF;
+            }
     }  
 
-.div__Section2-description2{
-    margin: 0 4px;
-}
+// // .div__Section2-description2{
+// // >>>Estrellas<<<<
+// // }
 
 
 .div__Section2-description3{
-    position: absolute;
     text-align: center;
     display: flex;
     align-items: center;
 
-    .p__Section2-p1{
-        position: absolute;
-        width: 40px;
-        height: 14px;
+        .p__Section2-p1{
+            width: 40px;
+            height: 14px;
 
-        font-family: 'Raleway';
-        font-size: 12px;
-        color:#FFFFFF ;
-        }
+            font-family: 'Raleway';
+            font-size: 12px;
+            color:#FFFFFF ;
+            }
 
-    .p__Section2-p2{
-        position: absolute;
-        width: 29px;
-        height: 14px;
+        .p__Section2-p2{
+            width: 29px;
+            height: 14px;
 
-        font-family: 'Raleway';
-        font-size: 12px;
-        color:#FFFFFF;            
-        }
+            font-family: 'Raleway';
+            font-size: 12px;
+            color:#FFFFFF;            
+            }
 
-    .p__Section2-p3{
-        position: absolute;
-        width: 40px;
-        height: 14px;
+        .p__Section2-p3{
+            width: 40px;
+            height: 14px;
+            
+            font-family: 'Raleway';
+            font-size: 12px;
+            color:#FFFFFF ;
+            }
+
+        .p__Section2-p4{
+            width: 40px;
+            height: 14px;
+            top: 1466px;
+            left: 141px;
         
-        font-family: 'Raleway';
-        font-size: 12px;
-        color:#FFFFFF ;
+            font-family: 'Raleway';
+            font-size: 12px;        
+            color:#FFFFFF ;
+            }
+    }
+
+.button__Section2-button{
+    width: 228px;
+    height: 32px;
+    top: 1514px;
+    left: 32px;
+    border-radius: 8px;
+    background: #000000;
+
+    font-family:'Raleway';
+    font-size: 14px;
+    background: #FFFFFF;
+}
+
+.div__Section2-sixcontainer{
+    .img__Section2-imgPia{
+        width: 369.15px;
+        height: 308.53px;
+        top: 1211.37px;
+        left: 441.62;    
         }
 
-    .p__Section2-p4{
-        width: 40px;
-        height: 14px;
-        top: 1466px;
-        left: 141px;
+    .img__Section2-imgV1{
+        width: 446.39px;
+        height: 247.4px;
+        top: 1338.84px;
+        left: 928.42;
+        opacity: 50%;
     
-        font: 'Raleway';
-        size: 12px;
-        line-height: 14.09;
-    
-        position: absolute;
-        visibility: hidden;
-        width: 40px;
-        height: 14px;
-        left: 141px;
-        top: 1466px;
-        
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 12px;
-        line-height: 14px;
-    
-        // El box
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.05em;
-    
-        color:#FFFFFF ;
+        left: 96.71%;
+        right: -43.21%;
+        top: 30.31%;
+        bottom: 64.09%;
+        background: #FFFFFF;
+        transform: rotate(143.88deg);    
         }
-//     }
-
-// .button__Section2-button{
-//     width: 228px;
-//     height: 32px;
-//     top: 1514px;
-//     left: 32px;
-//     border-radius: 8px;
-
-//     position: absolute;
-//     width: 228px;
-//     height: 32px;
-//     left: 32px;
-//     top: 1514px;
-
-//     background: #000000;
-//     border-radius: 8px;
-
-//     font-family:'Raleway';
-//     font-style: normal;
-//     font-weight: 700;
-//     font-size: 14px;
-//     line-height: 16px;
-//     display: flex;
-//     align-items: center;
-//     text-align: center;
-//     letter-spacing: 0.05em;
-//     background: #FFFFFF;
-// }
-
-// .div__Section2-sixcontainer{
-//     .img__Section2-imgPia{
-//         width: 369.15px;
-//         height: 308.53px;
-//         top: 1211.37px;
-//         left: 441.62;
     
-//         position: absolute;
-//         width: 369.15px;
-//         height: 308.53px;
-//         left: 441.62px;
-//         top: 1211.37px;
+    .img__Section2-imgV2{
+        width: 359.52px;
+        height: 279.74px;
     
-//         background: url(media);
-//         }
+        left: 55.03%;
+        right: 7.52%;
+        top: 27.28%;
+        bottom: 66.39%;
+    
+        background: #FFFFFF;
+        opacity: 0.35%;            
+        }
 
-//     .img__Section2-imgV1{
-//         width: 446.39px;
-//         height: 247.4px;
-//         top: 1338.84px;
-//         left: 928.42;
-//         opacity: 50%;
-    
-//         position: absolute;
-//         left: 96.71%;
-//         right: -43.21%;
-//         top: 30.31%;
-//         bottom: 64.09%;
-    
-//         background: #FFFFFF;
-//         opacity: 0.5%;
-//         transform: rotate(143.88deg);    
-//         }
-    
-//     .img__Section2-imgV2{
-//         width: 359.52px;
-//         height: 279.74px;
-//         top: 1205.02px;
-//         left: 528.25;
-//         opacity: 35%;
-    
-//         position: absolute;
-//         left: 55.03%;
-//         right: 7.52%;
-//         top: 27.28%;
-//         bottom: 66.39%;
-    
-//         background: #FFFFFF;
-//         opacity: 0.35%;            
-//         }
+    .img__Section2-imgV3{
+        width: 362.65;
+        height: 180.21;
+        top: 1208.4;
+        left: 485.28px;
+            }
 
-//     .img__Section2-imgV3{
-//         width: 362.65;
-//         height: 180.21;
-//         top: 1208.4;
-//         left: 485.28px;
-    
-//         position: absolute;
-//         width: 362.65px;
-//         height: 180.21px;
-//         left: 485.28px;
-//         top: 1208.4px;
-//         }
-// }
-
-
+}
