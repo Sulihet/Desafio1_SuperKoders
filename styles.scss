@@ -245,7 +245,9 @@ nav ul li {
   justify-content: center;
 }
 
-#partners1, #partners2, #partners3 {
+#partners1,
+#partners2,
+#partners3 {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -253,9 +255,10 @@ nav ul li {
 
 .partnerIzquierdo,
 .partnerDerecho {
+  display: inherit;
   width: 200px;
   height: 100px;
-  border-radius: 10px;
+  border-radius: 1000px;
   margin: 10px 20px 10px 20px;
   background: #000000;
   @include fontRaleway(400);
@@ -269,6 +272,14 @@ nav ul li {
   background: rgba(255, 255, 255, 0.5);
 }
 
-.partnerIzquierdo img, .partnerDerecho img {
+.partnerIzquierdo img,
+.partnerDerecho img {
   @include logos;
+  margin: auto;
+}
+
+.partnerIzquierdo p,
+.partnerDerecho p {
+  width: 60%;
+  margin: auto;
 }
