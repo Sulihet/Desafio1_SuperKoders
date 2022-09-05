@@ -1,0 +1,247 @@
+@import "fonts";
+
+@mixin mobileView {
+  @media (max-width: 599px) {
+    @content;
+  }
+}
+
+@mixin desktopView {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin titulo {
+  @include fontAbril(400);
+  width: 288px;
+  height: 62px;
+  left: 15.55px;
+  top: 176px;
+  font: {
+    size: 32px;
+  }
+  text: {
+    align: center;
+  }
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+}
+
+@mixin tituloSeccion {
+  @include fontAbril(400);
+  width: 288px;
+  height: 62px;
+  left: 15.55px;
+  top: 3636px;
+  font: {
+    size: 24px;
+  }
+  text: {
+    align: center;
+  }
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+
+  letter-spacing: 0.05em;
+}
+
+@mixin subtitulo {
+  @include fontRaleway(500);
+  width: 176px;
+  height: 19px;
+  left: 71.55px;
+  top: 139px;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #858585;
+}
+
+@mixin blackButton {
+  @include fontPoppins(500);
+  text-align: center;
+  width: 129px;
+  background: #000000;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 21px;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+@mixin whiteButton {
+  @include fontPoppins(500);
+  text-align: center;
+  box-sizing: border-box;
+  width: 129px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 21px;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+h1,
+.titulo {
+  @include titulo;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+h2,
+.tituloSeccion {
+  @include tituloSeccion;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+h5,
+.subtitulo {
+  @include subtitulo;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.blackButton {
+  @include blackButton;
+}
+
+.whiteButton {
+  @include whiteButton;
+}
+
+.soloDesktop {
+  @include mobileView {
+    display: none;
+  }
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  @include fontRaleway(600);
+}
+
+nav ul li {
+  margin: 10px;
+}
+
+#initialogo {
+  display: flex;
+}
+
+#encabezado {
+  display: flex;
+  justify-content: space-between;
+}
+
+#carrito {
+  height: 22.000001907348633px;
+  width: 20.999998092651367px;
+  left: 7px;
+  top: 7px;
+  border-radius: 0px;
+}
+
+#initialogo img {
+  left: 14.79%;
+  right: 72.89%;
+  top: 0.65%;
+  bottom: 98.71%;
+  height: 36.79010964690974px;
+  width: 31.41049722370508px;
+  left: 47.34198760986328px;
+  top: 32px;
+  border-radius: 0px;
+}
+
+#initialogo p {
+  @include fontLibre(700);
+  width: 65px;
+  height: 19px;
+  left: 38.55px;
+  top: 57px;
+  font-size: 15.1116px;
+  line-height: 19px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#buttons {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+#piano1 {
+  width: 100%;
+  display: flex;
+}
+
+#piano2 {
+  height: 175.46337890625px;
+  width: 209.9351806640625px;
+  border-radius: 0px;
+}
+
+#vector1 {
+  height: 159.090087890625px;
+  width: 204.4613800048828px;
+  border-radius: 0px;
+}
+
+#vector2 {
+  height: 140.69558746879963px;
+  width: 253.86175593151341px;
+  border-radius: 0px;
+}
+
+.centrar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.sectionDospuntouno {
+  position: inherit;
+  background-color: red;
+}
+
+.sectionDospuntodos {
+  position: relative;
+}
+
+#section2 {
+  background-image: url("rscs/backgroundsection2.png");
+  background-color: transparent;
+  background-size: 100% 100%;
+  color: white;
+}
+
+.partnerIzquierdo {
+  width: 200px;
+  height: 100px;
+  background: #8AC007;
+  border-radius: 100px/50px;
+}

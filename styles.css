@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:wght@700&family=Poppins:wght@300;500&family=Raleway:wght@300;400;500;600;700&display=swap");
+h1,
+.titulo {
+  font-family: "Abril Fatface";
+  font-style: normal;
+  font-weight: 400;
+  width: 288px;
+  height: 62px;
+  left: 15.55px;
+  top: 176px;
+  font-size: 32px;
+  text-align: center;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+h2,
+.tituloSeccion {
+  font-family: "Abril Fatface";
+  font-style: normal;
+  font-weight: 400;
+  width: 288px;
+  height: 62px;
+  left: 15.55px;
+  top: 3636px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+h5,
+.subtitulo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  width: 176px;
+  height: 19px;
+  left: 71.55px;
+  top: 139px;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #858585;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.blackButton {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  width: 129px;
+  background: #000000;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 21px;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.whiteButton {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  box-sizing: border-box;
+  width: 129px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 21px;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+@media (max-width: 599px) {
+  .soloDesktop {
+    display: none;
+  }
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+}
+
+nav ul li {
+  margin: 10px;
+}
+
+#initialogo {
+  display: flex;
+}
+
+#encabezado {
+  display: flex;
+  justify-content: space-between;
+}
+
+#carrito {
+  height: 22.0000019073px;
+  width: 20.9999980927px;
+  left: 7px;
+  top: 7px;
+  border-radius: 0px;
+}
+
+#initialogo img {
+  left: 14.79%;
+  right: 72.89%;
+  top: 0.65%;
+  bottom: 98.71%;
+  height: 36.7901096469px;
+  width: 31.4104972237px;
+  left: 47.3419876099px;
+  top: 32px;
+  border-radius: 0px;
+}
+
+#initialogo p {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 700;
+  width: 65px;
+  height: 19px;
+  left: 38.55px;
+  top: 57px;
+  font-size: 15.1116px;
+  line-height: 19px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#buttons {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+#piano1 {
+  width: 100%;
+  display: flex;
+}
+
+#piano2 {
+  height: 175.4633789063px;
+  width: 209.9351806641px;
+  border-radius: 0px;
+}
+
+#vector1 {
+  height: 159.0900878906px;
+  width: 204.4613800049px;
+  border-radius: 0px;
+}
+
+#vector2 {
+  height: 140.6955874688px;
+  width: 253.8617559315px;
+  border-radius: 0px;
+}
+
+.centrar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.sectionDospuntouno {
+  position: inherit;
+  background-color: red;
+}
+
+.sectionDospuntodos {
+  position: relative;
+}
+
+#section2 {
+  background-image: url("rscs/backgroundsection2.png");
+  background-color: transparent;
+  background-size: 100% 100%;
+  color: white;
+}/*# sourceMappingURL=styles.css.map */

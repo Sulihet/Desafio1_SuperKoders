@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:wght@700&family=Poppins:wght@300;500&family=Raleway:wght@300;400;500;600;700&display=swap");
+
+@mixin fontAbril($fontWeight) {
+  font: {
+    family: "Abril Fatface";
+    style: normal;
+    weight: $fontWeight;
+  }
+}
+
+@mixin fontLibre($fontWeight) {
+    font: {
+      family: "Libre Baskerville";
+      style: normal;
+      weight: $fontWeight;
+    }
+  }
+
+  @mixin fontRaleway($fontWeight) {
+    font: {
+      family: "Raleway";
+      style: normal;
+      weight: $fontWeight;
+    }
+  }
+
+  @mixin fontPoppins($fontWeight) {
+    font: {
+      family: "Poppins";
+      style: normal;
+      weight: $fontWeight;
+    }
+  }
