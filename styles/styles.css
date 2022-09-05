@@ -28,19 +28,21 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-size: 32px;
+  margin: 20px 20px;
+  color: #000000;
 }
 
 .div__Section2-fourcontainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 300px 80px;
 }
 
 .div__Section2-fourcontainer .p__Section2-pNuevo {
   font-family: 'Abril Fatface';
   font-size: 24px;
-  margin: 20px 0;
+  margin: 40px 0;
   color: #FFFFFF;
 }
 
@@ -115,7 +117,5 @@
   width: 506.42px;
   height: 463px;
   left: 422px;
-  top: 1139px;
-  padding-left: 300px;
 }
 /*# sourceMappingURL=styles.css.map */
