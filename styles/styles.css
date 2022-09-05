@@ -1,356 +1,81 @@
 .div_Section2-maincontainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   justify-items: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.div__Section2-threecontainer .div__Section2-video {
-  position: absolute;
-  z-index: -1;
-}
-
-.div__Section2-threecontainer .div__Section2-degradado {
+.div__Section2-secondcontainer {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  width: 100vw;
+}
+
+.div__Section2-secondcontainer .div__Section2-video {
+  position: absolute;
+  z-index: -2;
+}
+
+.div__Section2-secondcontainer .div__Section2-imgconver {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+.div__Section2-threecontainer {
+  position: absolute;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .div__Section2-threecontainer .div__Section2-header {
-  position: absolute;
-  width: 470px;
-  height: 62px;
-  left: 245px;
-  top: 958px;
-  font-family: 'Abril Fatface';
-  font-style: normal;
-  font-weight: 400;
   font-size: 32px;
-  line-height: 43px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  font-family: 'Abril Fatface';
   text-align: center;
-  letter-spacing: 0.05em;
+  padding-top: 10px;
+  padding-bottom: 0%;
+  margin: 0 10px;
   color: #000000;
 }
 
-.div__Section2-description1 .p__Section2-pNuevo {
-  width: 218px;
-  height: 32px;
-  top: 1188px;
-  left: 32px;
-  font: 'Abril Fatface';
-  size: 24px;
-  line-height: 32.38px;
-  position: absolute;
-  width: 218px;
-  width: 32px;
-  left: 32px;
-  top: 1188px;
-  font-family: 'Abril Fatface';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 32px;
+.div__Section2-description1 {
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  letter-spacing: 0.05em;
+}
+
+.div__Section2-description1 .p__Section2-pNuevo {
+  position: absolute;
+  width: 218px;
+  width: 32px;
+  font-family: 'Abril Fatface';
+  font-size: 24px;
   color: #FFFFFF;
 }
 
 .div__Section2-description1 .p__Section2-pValor {
-  width: 71px;
-  height: 14px;
-  top: 1238px;
-  left: 32px;
-  font: 'Raleway';
-  size: 12px;
-  line-height: 14.09;
   position: absolute;
   width: 71px;
   height: 14px;
-  left: 32px;
-  top: 1238px;
   font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
   font-size: 12px;
-  line-height: 14px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  letter-spacing: 0.05em;
   color: #FFFFFF;
 }
 
 .div__Section2-description1 .p__Section2-pDesde {
-  width: 224px;
-  height: 32px;
-  top: 1269px;
-  left: 32px;
-  font: 'Abril Fatface';
-  size: 24px;
-  line-height: 32.38px;
   position: absolute;
   width: 224px;
   height: 32px;
-  left: 32px;
-  top: 1269;
   font-family: 'Abril Fatface';
-  font-style: normal;
-  font-weight: 400;
   font-size: 24px;
-  line-height: 32px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  letter-spacing: 0.05em;
   color: #FFFFFF;
 }
 
 .div__Section2-description1 .p__Section2-pLorem {
-  width: 360px;
-  height: 131px;
-  top: 1317;
-  left: 32px;
-  font: 'Raleway';
-  size: 16px;
-  line-height: 18.78px;
   position: absolute;
   width: 360px;
   height: 131px;
-  left: 32px;
-  top: 1317px;
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.05em;
   color: #FFFFFF;
-}
-
-.div__Section2-description3 .p__Section2-p1 {
-  width: 40px;
-  height: 14px;
-  top: 1466px;
-  left: 32px;
-  font: 'Raleway';
-  size: 12px;
-  line-height: 14.09;
-  position: absolute;
-  width: 48px;
-  height: 14px;
-  left: 32px;
-  top: 1466px;
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 14px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  letter-spacing: 0.05em;
-  color: #FFFFFF;
-}
-
-.div__Section2-description3 .p__Section2-p2 {
-  width: 29px;
-  height: 14px;
-  top: 1466px;
-  left: 93px;
-  font: 'Raleway';
-  size: 12px;
-  line-height: 14.09;
-  position: absolute;
-  visibility: hidden;
-  width: 29px;
-  height: 14px;
-  left: 93px;
-  top: 1466px;
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 14px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  letter-spacing: 0.05em;
-  color: #FFFFFF;
-}
-
-.div__Section2-description3 .p__Section2-p3 {
-  width: 40px;
-  height: 14px;
-  top: 1466px;
-  left: 141px;
-  font: 'Raleway';
-  size: 12px;
-  line-height: 14.09;
-  position: absolute;
-  visibility: hidden;
-  width: 40px;
-  height: 14px;
-  left: 141px;
-  top: 1466px;
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 14px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  letter-spacing: 0.05em;
-  color: #FFFFFF;
-}
-
-.div__Section2-description3 .p__Section2-p4 {
-  width: 40px;
-  height: 14px;
-  top: 1466px;
-  left: 141px;
-  font: 'Raleway';
-  size: 12px;
-  line-height: 14.09;
-  position: absolute;
-  visibility: hidden;
-  width: 40px;
-  height: 14px;
-  left: 141px;
-  top: 1466px;
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 14px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  letter-spacing: 0.05em;
-  color: #FFFFFF;
-}
-
-.button__Section2-button {
-  width: 228px;
-  height: 32px;
-  top: 1514px;
-  left: 32px;
-  border-radius: 8px;
-  position: absolute;
-  width: 228px;
-  height: 32px;
-  left: 32px;
-  top: 1514px;
-  background: #000000;
-  border-radius: 8px;
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  letter-spacing: 0.05em;
-  background: #FFFFFF;
-}
-
-.div__Section2-sixcontainer .img__Section2-imgPia {
-  width: 369.15px;
-  height: 308.53px;
-  top: 1211.37px;
-  left: 441.62;
-  position: absolute;
-  width: 369.15px;
-  height: 308.53px;
-  left: 441.62px;
-  top: 1211.37px;
-  background: url(media);
-}
-
-.div__Section2-sixcontainer .img__Section2-imgV1 {
-  width: 446.39px;
-  height: 247.4px;
-  top: 1338.84px;
-  left: 928.42;
-  opacity: 50%;
-  position: absolute;
-  left: 96.71%;
-  right: -43.21%;
-  top: 30.31%;
-  bottom: 64.09%;
-  background: #FFFFFF;
-  opacity: 0.5%;
-  -webkit-transform: rotate(143.88deg);
-          transform: rotate(143.88deg);
-}
-
-.div__Section2-sixcontainer .img__Section2-imgV2 {
-  width: 359.52px;
-  height: 279.74px;
-  top: 1205.02px;
-  left: 528.25;
-  opacity: 35%;
-  position: absolute;
-  left: 55.03%;
-  right: 7.52%;
-  top: 27.28%;
-  bottom: 66.39%;
-  background: #FFFFFF;
-  opacity: 0.35%;
-}
-
-.div__Section2-sixcontainer .img__Section2-imgV3 {
-  width: 362.65;
-  height: 180.21;
-  top: 1208.4;
-  left: 485.28px;
-  position: absolute;
-  width: 362.65px;
-  height: 180.21px;
-  left: 485.28px;
-  top: 1208.4px;
 }
 /*# sourceMappingURL=styles.css.map */
