@@ -239,9 +239,36 @@ nav ul li {
   color: white;
 }
 
-.partnerIzquierdo {
+#section5 h3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#partners1, #partners2, #partners3 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.partnerIzquierdo,
+.partnerDerecho {
   width: 200px;
   height: 100px;
-  background: #8AC007;
-  border-radius: 100px/50px;
+  border-radius: 10px;
+  margin: 10px 20px 10px 20px;
+  background: #000000;
+  @include fontRaleway(400);
+  color: white;
+}
+
+@mixin logos {
+  width: 41px;
+  height: 60px;
+  border-radius: 100px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.partnerIzquierdo img, .partnerDerecho img {
+  @include logos;
 }
