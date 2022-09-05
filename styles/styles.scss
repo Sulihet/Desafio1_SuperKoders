@@ -6,6 +6,13 @@ box-sizing: border-box;}
     width: 100vw;
 
     .img__video{ 
+        z-index: -2;
+        position: absolute;
+        width: 100vw;
+    }
+
+    .img_degrada{
+        width: 100vw;
         z-index: -1;
         position: absolute;
     }
@@ -13,8 +20,8 @@ box-sizing: border-box;}
 
 
 .div__Section2-threecontainer{
-    // position: absolute;
-    justify-content: space-around;
+    display: flex;
+    justify-content: center;
 
         .div__Section2-header{
             width: 8px;
@@ -29,106 +36,102 @@ box-sizing: border-box;}
             }
 }
 
-.div__Section2-description1{
-    text-align: center;
+.div__Section2-fourcontainer{
+    display: flex;
+    .ul__Section2_List{
+        display: flex;
+        li{
+            margin: 0px 10px;
+        }
+        .Sin_punto{
+            list-style: none;
+        }
+    }
+}
+
+
+.div__Section2-Valoration{
+    display: flex;
+.ul__Section2-stars{
     display: flex;
 
-        .p__Section2-pNuevo{
-            width: 218px;
-            height: 32px;
-        
-            font-family: 'Abril Fatface';
-            font-size: 24px;
-            color:#FFFFFF;
-            }   
+    li{
+        margin: 0 10px;
+        list-style: none;
+    }
+    
+}
+}
 
-        .p__Section2-pValor{
-            width: 71px;
-            height: 14px;
-
-            font-family:'Raleway';
-            font-size: 12px;
-            color: #FFFFFF;
-            }
-
-        .p__Section2-pDesde{
-            width: 224px;
-            height: 32px;
-            
-            font-family: 'Abril Fatface';
-            font-size: 24px;
-            color: #FFFFFF;
-            }
-
-        .p__Section2-pLorem{
-            width: 360px;
-            height: 131px;
-
-            color: #FFFFFF;
-            }
-    }  
+.button__Section2-button{
+    background-color: black;
+    color: white;
+    width: 228px;
+    height: 32px;
+    border-radius: 8px;
+}
 
 // // .div__Section2-description2{
 // // >>>Estrellas<<<<
 // // }
 
 
-.div__Section2-description3{
-    text-align: center;
-    display: flex;
-    align-items: center;
+// .div__Section2-description3{
+//     text-align: center;
+//     display: flex;
+//     align-items: center;
 
-        .p__Section2-p1{
-            width: 40px;
-            height: 14px;
+//         .p__Section2-p1{
+//             width: 40px;
+//             height: 14px;
 
-            font-family: 'Raleway';
-            font-size: 12px;
-            color:#FFFFFF ;
-            }
+//             font-family: 'Raleway';
+//             font-size: 12px;
+//             color:#FFFFFF ;
+//             }
 
-        .p__Section2-p2{
-            width: 29px;
-            height: 14px;
+//         .p__Section2-p2{
+//             width: 29px;
+//             height: 14px;
 
-            font-family: 'Raleway';
-            font-size: 12px;
-            color:#FFFFFF;            
-            }
+//             font-family: 'Raleway';
+//             font-size: 12px;
+//             color:#FFFFFF;            
+//             }
 
-        .p__Section2-p3{
-            width: 40px;
-            height: 14px;
+//         .p__Section2-p3{
+//             width: 40px;
+//             height: 14px;
             
-            font-family: 'Raleway';
-            font-size: 12px;
-            color:#FFFFFF ;
-            }
+//             font-family: 'Raleway';
+//             font-size: 12px;
+//             color:#FFFFFF ;
+//             }
 
-        .p__Section2-p4{
-            width: 40px;
-            height: 14px;
-            top: 1466px;
-            left: 141px;
+//         .p__Section2-p4{
+//             width: 40px;
+//             height: 14px;
+//             top: 1466px;
+//             left: 141px;
         
-            font-family: 'Raleway';
-            font-size: 12px;        
-            color:#FFFFFF ;
-            }
-    }
+//             font-family: 'Raleway';
+//             font-size: 12px;        
+//             color:#FFFFFF ;
+//             }
+//     }
 
-.button__Section2-button{
-    width: 228px;
-    height: 32px;
-    top: 1514px;
-    left: 32px;
-    border-radius: 8px;
-    background: #000000;
+// .button__Section2-button{
+//     width: 228px;
+//     height: 32px;
+//     top: 1514px;
+//     left: 32px;
+//     border-radius: 8px;
+//     background: #000000;
 
-    font-family:'Raleway';
-    font-size: 14px;
-    background: #FFFFFF;
-}
+//     font-family:'Raleway';
+//     font-size: 14px;
+//     background: #FFFFFF;
+// }
 
 .div__Section2-sixcontainer{
     .img__Section2-imgPia{
