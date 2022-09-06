@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/* El SCSS de Vryahn empieza aquí */
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:wght@700&family=Poppins:wght@300;500&family=Raleway:wght@300;400;500;600;700&display=swap");
 h1,
 .titulo {
@@ -277,4 +279,6 @@ nav ul li {
 .logosSection1 {
   border-radius: 50px;
   align-content: flex-end;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/* El SCSS de Vryahn termina aquí *//*# sourceMappingURL=styles.css.map */
