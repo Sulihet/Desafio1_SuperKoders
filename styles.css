@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* El SCSS de Vryahn empieza aquí */
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:wght@700&family=Poppins:wght@300;500&family=Raleway:wght@300;400;500;600;700&display=swap");
+/* /fonts */
 h1,
 .titulo {
   font-family: "Abril Fatface";
@@ -237,7 +238,7 @@ nav ul li {
 .partnerIzquierdo,
 .partnerDerecho {
   display: inherit;
-  min-width: 240px;
+  width: 240px;
   height: 70px;
   border-radius: 1000px;
   margin: 10px 20px 10px 20px;
