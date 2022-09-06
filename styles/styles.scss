@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "vars";
 
 @mixin piano-cards {
@@ -248,3 +249,112 @@
     flex-direction: column;
   }
 }
+
+
+*{padding: 0px; 
+margin: 0px;
+box-sizing: border-box;}
+
+.div__Section2-imgcover{
+    width: 100vw;
+
+    .img__video{ 
+        z-index: -2;
+        position: absolute;
+        width: 100vw;
+    }
+
+    .img_degrada{
+        width: 100vw;
+        z-index: -1;
+        position: absolute;
+    }
+}
+
+
+.div__Section2-threecontainer{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    margin: 20px 20px;
+    color: #000000
+    }
+    
+
+.div__Section2-fourcontainer{
+    display: flex;
+    
+    .p__Section2-pNuevo{
+        font-family: 'Abril Fatface';
+        font-size: 24px;
+        margin: 40px 0;
+        color: #FFFFFF;
+    }
+
+    .div__Section2-text{
+        font-family: 'Raleway';
+        font-size: 12px;
+        color: #FFFFFF; 
+    }
+
+    .ul__Section2_List{
+        display: flex;
+        margin: 20px 0;
+
+        li{
+            margin: 0px 10px;
+        }   
+        .Sin_punto{
+            list-style: none;
+        }
+        .none_vist{
+            visibility: hidden;
+        }
+
+        font-family:'Raleway';
+        font-size: 12px;
+        color: white;
+    }
+
+    .p__Section2-pDesde{
+        font-family: 'Abril Fatface';
+        font-size: 24px;
+        margin: 20px 0;
+        color: #FFFFFF;
+    }
+
+    .p__Section2-pLorem{
+        font-family:'Raleway';
+        font-size: 16px;
+        color: #FFFFFF;
+        width: 360px;
+    }
+}
+
+
+.div__Section2-Valoration{
+    display: flex;
+.ul__Section2-stars{
+    display: flex;
+
+    li{
+        margin: 0 10px;
+        list-style: none;
+    }
+    
+    }
+}
+
+.button__Section2-button{
+    background-color:#000000;
+    border-radius: 8px ;
+    color: white;
+    width: 228px;
+    height: 32px;
+    
+}
+
+.div__Section2-sixcontainer{
+    width: 506.42px;
+    height: 463px;
+    left: 422px;}
