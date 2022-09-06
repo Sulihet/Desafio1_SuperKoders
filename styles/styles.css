@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:wght@700&family=Poppins:wght@300;500&family=Raleway:wght@300;400;500;600;700&display=swap");
 /* class for main container S3*/
-.div__main-flex-S3 {
+.div__main-flex {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   /*class for section 3 title*/
 }
-.div__main-flex-S3 .div__title-S3 {
+.div__main-flex .div__title {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 200px;
   width: 470px;
   height: 62px;
@@ -24,6 +26,7 @@
 /*Cointainer for cards S3*/
 .div__piano-cards-container {
   display: flex;
+  justify-content: center;
 }
 .div__piano-cards-container .div__card-piano-img {
   position: absolute;
@@ -141,4 +144,65 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
+}
+
+.div__description-S4 {
+  width: 561px;
+  height: 57px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: black;
+}
+
+.div__flex-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.div__flex {
+  display: flex;
+  justify-content: center;
+}
+
+.label__styles {
+  width: 106px;
+  height: 36px;
+  left: 248px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: black;
+}
+
+.div__form-box {
+  box-sizing: border-box;
+  position: absolute;
+  width: 464px;
+  height: 36px;
+  background: rgba(0, 0, 0, 0.65);
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+/*Media Queries*/
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .div__main-flex-S3--mobile {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=styles.css.map */
