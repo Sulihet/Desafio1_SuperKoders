@@ -298,3 +298,18 @@ nav ul li {
 #petrof{
   @include desktopView();
 }
+
+.pianologos{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.logoSection1{
+  -moz-border-radius:50px;
+  -webkit-border-radius:50px;
+  border-radius:50px;
+  height:10px;
+  width:10px;
+  border-image: 10px;
+  border-color: black;
+}
